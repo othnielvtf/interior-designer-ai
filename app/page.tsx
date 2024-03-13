@@ -316,6 +316,7 @@ export default function HomePage() {
     saveAs(outputImage as string, "output.png");
   }
 
+  
   /**
    * Submit the image to the server
    * @returns {Promise<void>}
